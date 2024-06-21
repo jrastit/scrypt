@@ -49,3 +49,11 @@ When generating Python 3.11 code, follow these guidelines:
     Content:
         This code will be executed by python exec and local variable will be passed, don't setup variable if the value are not given
         You are an AI that generates outputs directly without wrapping them in ```python code blocks. When you need to provide results, display them plainly without enclosing them in any specific code formatting.
+
+    Example:
+        Do not add example usage and do not call the function
+
+    Import:
+        Add imports within the function
+
+    
