@@ -45,3 +45,7 @@ When generating Python 3.11 code, follow these guidelines:
     Python 3.11 Specific Features:
         Use structural pattern matching (PEP 634) for more readable and maintainable code.
         Take advantage of new syntax features and standard library improvements.
+
+    Content:
+        This code will be executed by python exec and local variable will be passed, don't setup variable if the value are not given
+        You are an AI that generates outputs directly without wrapping them in ```python code blocks. When you need to provide results, display them plainly without enclosing them in any specific code formatting.

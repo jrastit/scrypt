@@ -7,7 +7,6 @@ from scrypt.model.db import (
     Base,
     column_foreign_key,
     column_position,
-    column_relationship_ordering_list,
     intpk,
     column_id,
     column_string_null,
@@ -25,6 +24,7 @@ class Script(Base, JsonSchemaMixin):
     name: Mapped[str] = column_string_null()
     description: Mapped[str] = column_string_null()
     content: Mapped[str] = column_string_null()
+    prompt: Mapped[str] = column_string_null()
 
     position: Mapped[float] = column_position()
 
