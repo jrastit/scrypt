@@ -1,0 +1,7 @@
+.coverage
+.idea
+__pycache__
+private_env.sh
+/settings/.secrets.yaml
+/export
+

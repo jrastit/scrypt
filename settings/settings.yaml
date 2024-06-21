@@ -1,0 +1,2 @@
+test:
+  db_dsn: 'postgresql+psycopg2://scrypt:non_secure_password@localhost/scrypt_test'
